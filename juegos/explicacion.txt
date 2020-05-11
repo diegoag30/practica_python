@@ -1,0 +1,11 @@
+La estructura utilizada para esta tarea, fue hecha en base a lo solicitado, ya que se pedia gaurdar el nombre del jugador y del juego que jugo.
+Me parece que es una buena manera guardarlos en formato JSON, de la forma:
+{
+    id: {
+        nombre: ***
+        juego: ****
+    }
+}
+lo anterior debido a que queda de forma ordenada y de facil acceso, dado que tiene una id unica, lo que permite que se puede acceder a cada jugada realizada y quede todo guardado como un historial.
+En cuanto al porque elegi el formato JSON, es porque me parece que es mas beneficioso usar un formato estandar, que es utilizado por distintos lenguajes de programacion, ya que seria mas facil,
+poder utilizarlo con distintos archivos y programas, ademas de que queda muy bien ordenado y simple.
